@@ -13,7 +13,8 @@ class AuctionPage extends Component{
     constructor(props){
         super(props)
         this.state = {
-            bidderId:''
+            bidderId:'tyut',
+            amount: 20
         }
     }   
     componentDidMount(){ 
@@ -25,13 +26,25 @@ class AuctionPage extends Component{
             console.log(data)
            this.setState({ bidderId : data._id})
         }) ;
-        let amount = 20, playerId = 215155
+        let playerId = 215155
         console.log(this.state.bidderId)
         const bidderId = this.state.bidderId
         socket.emit("startAuction",{roomId, bidderId});
         let bid = document.getElementById('bid')
         bid.addEventListener('click', () => {
-            socket.emit('placebid',{roomId, bidderId, amount, playerId})
+
+            socket.emit('placebid',{roomId, bidderId:this.state.bidderId,bidAmt: this.state.amount, playerId})
+            this.setState({amount: this.state.amount +5})
+        })
+        socket.on("bidPlaced",obj=>{
+            console.log(obj)
+        })
+
+        socket.on("auction ended",()=>{
+            console.log("auction ended")
+        })
+        socket.on("new player",(obj)=>{
+            console.log(obj)
         })
     }
     render(){
