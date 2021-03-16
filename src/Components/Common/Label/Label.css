@@ -1,0 +1,11 @@
+.my-label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 16px;
+    margin-left: 10px;
+    color: #171717;
+}

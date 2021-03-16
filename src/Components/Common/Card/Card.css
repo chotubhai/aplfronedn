@@ -1,0 +1,66 @@
+.my-card img{
+    width: 300px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    border: 5.43832px solid rgba(255, 255, 255, 0.16);
+    filter: drop-shadow(0px 4.35066px 4.35066px rgba(0, 0, 0, 0.25));
+    border-radius: 21.7533px;
+    height: 240px;
+}
+.my-card{
+    background: rgba(78, 39, 78, 0.5);
+    border-radius: 27.1916px;
+    padding: 30px; 
+    position: relative;
+    margin-bottom: 40px;
+}
+.my-card button{
+    width: 50% ;
+    margin: 80px auto auto;
+    display: block;
+    background: #984360;
+    box-shadow: 0px 4.35066px 4.35066px rgba(0, 0, 0, 0.25);
+    border-radius: 8.70132px;
+    font-weight: 500;
+    font-size: 25.0163px;
+    line-height: 26px;
+}
+.my-card h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.1916px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+}
+.my-card h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.367px;
+    line-height: 44px;
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+
+}
+.my-card h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.578px;
+    position: relative;
+    line-height: 29px; 
+    margin-top: 25px;
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+}
+.my-card .line{
+    border: 5.43832px solid #FFFFFF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 20px; 
+}

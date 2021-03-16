@@ -1,0 +1,38 @@
+:root{
+  --primary-purple : #4E274E;
+  --primary-font : 'Poppins';
+  --secondary-purple: #C38CB9;
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --gradient: linear-gradient(116.82deg, #090B28 0%, #4E274E 100%);
+}
+html, body{
+  font-family: var(--primary-font);
+  font-size: 16px;
+  position: relative;
+  background: var(--gradient);
+  overflow-x: hidden;
+  color: white
+}
+center{
+  display: block;
+  margin: auto;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} 
+.error-message{
+  color: red;
+  text-align: center;
+}
+.form-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./Assets/patterned.svg');
+  justify-content: center;
+} 

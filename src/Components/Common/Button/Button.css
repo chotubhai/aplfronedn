@@ -1,0 +1,28 @@
+.my-button{
+    width: 100%;
+    background-color: var(--primary-purple);
+    color: white;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    font-family: var(--primary-font); 
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 27px;
+    border: none;
+}
+.my-button:hover{
+    background-color: white;
+    color:var(--primary-purple);
+
+}
+.second-button{
+    background-color: var(--secondary-purple);
+    color: white; 
+}
+.my-button:hover{
+    background-color: white;
+    color:var(--secondary-purple);
+
+}

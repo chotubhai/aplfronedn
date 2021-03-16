@@ -1,0 +1,17 @@
+.player-cards{
+    display:flex;   
+}
+.back-left{
+    position: relative;
+    right: -70px;
+    transform: scale(0.75)
+}
+.front-center{
+    /* position:absolute; */
+    z-index: 11111
+}
+.back-right{
+    position: relative;
+    left: -70px;
+    transform: scale(0.75)
+}

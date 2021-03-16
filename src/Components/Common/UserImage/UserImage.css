@@ -1,0 +1,23 @@
+.user-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-size: contain; 
+    border: 3px solid rgba(195, 140, 185, 0.29);
+}
+.user-image-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user-name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px; 
+    letter-spacing: 0.05em; 
+    color: #F7F7F7; 
+}

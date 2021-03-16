@@ -1,0 +1,86 @@
+.page-container{
+    padding: 40px 20px;
+    color: white;
+    height: 100vh; 
+    background-color: #090B28 !important; 
+}
+.popUpFilter{
+    filter: brightness(0.65);
+}
+.page-container h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px; 
+    letter-spacing: 0.05em;
+
+}
+
+.page-container .col-lg-11{
+    padding: 0 40px;
+}
+
+
+
+
+
+@media (max-width: 1800px){
+    .page-container .col-lg-1{
+        width: 12%;
+    }
+    .page-container .col-lg-11{
+        width: 88%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 1600px){
+    .page-container .col-lg-1{
+        width: 14%;
+    }
+    .page-container .col-lg-11{
+        width: 86%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 1360px){
+    .page-container .col-lg-1{
+        width: 16%;
+    }
+    .page-container .col-lg-11{
+        width: 84%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 1260px){
+    .page-container .col-lg-1{
+        width: 17%;
+    }
+    .page-container .col-lg-11{
+        width: 83%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 1160px){
+    .page-container .col-lg-1{
+        width: 18%;
+    }
+    .page-container .col-lg-11{
+        width: 82%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 900px){
+    .page-container .col-lg-1{
+        width: 22%;
+    }
+    .page-container .col-lg-11{
+        width: 78%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 786px){
+    .page-container .col-lg-1{
+        display: none;
+    }
+} 

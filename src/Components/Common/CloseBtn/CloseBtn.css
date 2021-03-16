@@ -1,0 +1,19 @@
+
+.leave img{
+    width: 43px;
+    margin-bottom: 10px;
+}
+.leave{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px; 
+    letter-spacing: 0.05em; 
+    color: #F7F7F7;
+
+}

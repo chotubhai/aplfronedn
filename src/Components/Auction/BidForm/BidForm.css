@@ -1,0 +1,60 @@
+.bid-btn{
+    background: #984360;
+    border-radius: 7px;
+    width: 100%;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px; 
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+    padding: 4px;
+    text-align: center;
+}
+.bid-input{
+    background: rgba(78, 39, 78, 0.37);
+    border-radius: 7px; 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px; 
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+    padding: 4px 12px;
+}
+.bid-input input{
+    border: none;
+    border-left: 2px solid #fff;
+    margin-left: 10px;
+    background: none;
+    padding: 0 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px; 
+    letter-spacing: 0.05em; 
+    color: #EAEAEA;
+}
+.bid-form {
+    width: 410px;
+    margin-top: 100px;
+}
+.bid-form .flex div{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px; 
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 20px 0;
+    width: 45%;
+    text-align: center;
+    background: rgba(78, 39, 78, 0.37);
+    border-radius: 7px;
+}

@@ -1,0 +1,14 @@
+
+.action-page{
+    padding: 40px 20px;
+    color: white;
+    height: 100vh; 
+    background-color: #090B28 !important;
+    background-image: url('../../Assets/patterned.svg');
+
+}
+.auction-page-flex-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}

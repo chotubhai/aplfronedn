@@ -1,0 +1,14 @@
+@keyframes scaleInOut{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.landing .flex{
+    animation: scaleInOut infinite forwards 1s;
+}

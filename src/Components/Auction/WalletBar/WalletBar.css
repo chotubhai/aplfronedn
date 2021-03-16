@@ -1,0 +1,29 @@
+.wallet-bar{ 
+    background: rgba(195, 140, 185, 0.16);
+    border-radius: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center ;
+    line-height: 30px; 
+    width: 40%;
+    color: #FFFFFF;
+}
+.wallet-bar p:first-child{
+    font-size: 20px; 
+    font-weight: 600;
+}
+.wallet-bar p{
+    margin: 0 20px 0 0;
+}
+.wallet-bar img{ 
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 50px;
+    border-radius: 100px;
+}
+.wallet-bar .flex{ 
+    align-items: center !important;
+    padding: 5px ;
+}

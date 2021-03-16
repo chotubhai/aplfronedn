@@ -1,0 +1,6 @@
+.participant-holder{
+    display: flex;
+    width: 40%;
+    margin: 40px auto;
+    justify-content: space-evenly;
+}

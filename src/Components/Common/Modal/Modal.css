@@ -1,0 +1,24 @@
+.modal{
+    position: absolute;
+    display: block;
+    z-index: 99999999;
+    width: 420px;
+    height: 420px; 
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.9091px;
+    top: 25%;
+    left: 40%;
+}
+.modal-close-btn{
+    position: absolute;
+    right: 20px;
+    top: -10px;
+}
+.modal-close-btn .leave img{
+    width: 20px !important;
+    border: none !important;
+}
+.modal-close-btn .leave div{
+    display: none;
+}
