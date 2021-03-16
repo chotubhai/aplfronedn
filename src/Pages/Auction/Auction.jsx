@@ -12,8 +12,10 @@ import  io  from "socket.io-client";
 class AuctionPage extends Component{
     constructor(props){
         super(props)
-
-    }
+        this.state = {
+            bidderId:''
+        }
+    }   
     componentDidMount(){ 
         let roomId = '6050bae7739caa0e346440ae'
         let userId = '604c9b426dea7a349800cc2b'
@@ -21,16 +23,17 @@ class AuctionPage extends Component{
         socket.emit('join-room', {roomId, userId})  
         socket.on('userJoined', data =>{
             console.log(data)
+           this.setState({ bidderId : data._id})
         }) ;
-
-        socket.emit("startAuction",{roomId, userId});
-
+        let amount = 20, playerId = 215155
+        console.log(this.state.bidderId)
+        const bidderId = this.state.bidderId
+        socket.emit("startAuction",{roomId, bidderId});
+        let bid = document.getElementById('bid')
+        bid.addEventListener('click', () => {
+            socket.emit('placebid',{roomId, bidderId, amount, playerId})
+        })
     }
-
-    onbid(){
-
-    }
-
     render(){
         return(
             <div className="action-page">
@@ -43,7 +46,7 @@ class AuctionPage extends Component{
                 <div className="flex" style={{justifyContent: 'space-evenly'}}>
                     <div className="auction-page-flex-left">
                         <PlayerCards/> 
-                        <BidForm onbid/>
+                        <button id="bid">BID</button>
                     </div>
                     <div>
                         <Deck /> 
